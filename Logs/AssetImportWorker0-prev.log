@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.11f1 (4d8c25f7477e) revision 5082149'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1237; Version 2009; 64bit' Language: 'da' Physical Memory: 8084 MB
+OS: 'Windows 10 Home; OS build 19042.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 32710 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,82 +11,86 @@ C:\Program Files\Unity\Hub\Editor\2021.1.11f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/kab/Documents/GitHub/Shooting Range VR_Old
+E:/unityProjects/Redneck-Shooter-VR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49425
-Successfully changed project path to: C:/Users/kab/Documents/GitHub/Shooting Range VR_Old
-C:/Users/kab/Documents/GitHub/Shooting Range VR_Old
+57177
+Successfully changed project path to: E:/unityProjects/Redneck-Shooter-VR
+E:/unityProjects/Redneck-Shooter-VR
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 445.10 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 5.95 ms.
+Refreshing native plugins compatible for Editor in 111.30 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.69 ms.
 Initialize engine version: 2021.1.11f1 (4d8c25f7477e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/kab/Documents/GitHub/Shooting Range VR_Old/Assets
+[Subsystems] Discovering subsystems at path E:/unityProjects/Redneck-Shooter-VR/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 with Max-Q Design (ID=0x1c20)
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
     Vendor:   NVIDIA
-    VRAM:     2987 MB
-    Driver:   27.21.14.6089
+    VRAM:     4043 MB
+    Driver:   27.21.14.5671
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004273 seconds.
+Registered in 0.002163 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 208.98 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.20 ms.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 106.78 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.417 seconds
+- Completed reload, in  1.904 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5417ms)
-		BeginReloadAssembly (186ms)
+	ReloadAssembly (1904ms)
+		BeginReloadAssembly (83ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (931ms)
-			LoadAssemblies (178ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (295ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (473ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (165ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (505ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (236ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (209ms)
-				BeforeProcessingInitializeOnLoad (12ms)
-				ProcessInitializeOnLoadAttributes (231ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (93ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.039336 seconds.
+Registered in 0.006605 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\kab\Documents\GitHub\Shooting Range VR_Old\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\kab\Documents\GitHub\Shooting Range VR_Old\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\unityProjects\Redneck-Shooter-VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\unityProjects\Redneck-Shooter-VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 190.86 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 110.34 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
 [XR] Unable to register input lifecyle provider: [1]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kab\Documents\GitHub\Shooting Range VR_Old\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kab\Documents\GitHub\Shooting Range VR_Old\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\unityProjects\Redneck-Shooter-VR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\unityProjects\Redneck-Shooter-VR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
   at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
   at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
    --- End of inner exception stack trace ---
@@ -100,47 +104,46 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in 11.896 seconds
+- Completed reload, in  1.357 seconds
 Domain Reload Profiling:
-	ReloadAssembly (11898ms)
-		BeginReloadAssembly (1173ms)
+	ReloadAssembly (1358ms)
+		BeginReloadAssembly (138ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (2323ms)
-			LoadAssemblies (323ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1163ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (781ms)
+			SetupTypeCache (379ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (138ms)
-			SetupLoadedEditorAssemblies (927ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (514ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (191ms)
-				BeforeProcessingInitializeOnLoad (159ms)
-				ProcessInitializeOnLoadAttributes (532ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				RefreshPlugins (111ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (282ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 4.24 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.15 ms.
-Unloading 4901 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 189.6 MB.
-System memory in use after: 187.8 MB.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 4900 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.3 MB.
+System memory in use after: 187.5 MB.
 
-Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 5339.
-Total: 6.602700 ms (FindLiveObjects: 0.432800 ms CreateObjectMapping: 1.405900 ms MarkObjects: 3.604000 ms  DeleteObjects: 1.158700 ms)
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 5363.
+Total: 3.142900 ms (FindLiveObjects: 0.354000 ms CreateObjectMapping: 0.203600 ms MarkObjects: 2.473900 ms  DeleteObjects: 0.110300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -149,6 +152,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
@@ -156,4 +160,41 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/New Terrain.asset
   artifactKey: Guid(532e8bda7dccbb04d984ab206120e7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(532e8bda7dccbb04d984ab206120e7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55335423aa868191b4df9d90d7037df7') in 0.201297 seconds 
+Start importing Assets/New Terrain.asset using Guid(532e8bda7dccbb04d984ab206120e7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eda1654189eb08a9c0b5994c63ee42f') in 0.086314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/SimpleTree2.fbx
+  artifactKey: Guid(21b7a85d6fd9c7d49902fc022a2ecab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleTree2.fbx using Guid(21b7a85d6fd9c7d49902fc022a2ecab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1fe1483b002c02229cbcc6e1c601605') in 0.725760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0d0a84667dd3a5d00fc3082b95716f') in 0.004464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/SimpleTree.fbx
+  artifactKey: Guid(3d63dda30e187d547bb6fe83af2661f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleTree.fbx using Guid(3d63dda30e187d547bb6fe83af2661f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c423c17e2cdd241199ccf7955fa2ee80') in 0.019246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3b9f17ff219922461d349995487975') in 0.006741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.659493 seconds.
+  path: Assets/Stylized Nature Pack/Particles/Materials/Fog.mat
+  artifactKey: Guid(42898d32c17051641a16a1c4820afd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Nature Pack/Particles/Materials/Fog.mat using Guid(42898d32c17051641a16a1c4820afd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63660deb19ba9f11e212db1dde48ae12') in 0.052171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.575962 seconds.
+  path: Assets/Stylized Nature Pack/Particles/Materials/ember_1.mat
+  artifactKey: Guid(624b98c6e3625554085643f81b45c91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Nature Pack/Particles/Materials/ember_1.mat using Guid(624b98c6e3625554085643f81b45c91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65fa96457fd599278dee00770fc67ea') in 0.012650 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
