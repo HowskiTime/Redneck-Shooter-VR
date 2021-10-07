@@ -2299,6 +2299,7 @@ GameObject:
   - component: {fileID: 1850486618}
   - component: {fileID: 1850486620}
   - component: {fileID: 1850486619}
+  - component: {fileID: 1850486621}
   m_Layer: 0
   m_Name: Text (TMP) (1)
   m_TagString: Untagged
@@ -2314,7 +2315,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1850486617}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 3}
   m_LocalScale: {x: 0.005, y: 0.005, z: 0.5}
   m_Children: []
   m_Father: {fileID: 439998672}
@@ -2323,7 +2324,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 300, y: 100}
+  m_SizeDelta: {x: 400, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1850486619
 MonoBehaviour:
@@ -2459,6 +2460,21 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1850486621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850486617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a2d408d0ca7cd34292f00913c9eb7d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fpsHud: {fileID: 1850486619}
+  worstFps: 72
+  currentFps: 0
 --- !u!1 &1872513884
 GameObject:
   m_ObjectHideFlags: 0
