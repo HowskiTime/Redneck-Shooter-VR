@@ -18,6 +18,7 @@ public class GunGeneric : MonoBehaviour
 
     public float fireDelayMax = 0.2f;
     public float fireDelay = 0f;
+    public float bulletForce = 2000f;
 
     private void updateController()
     {
@@ -46,6 +47,7 @@ public class GunGeneric : MonoBehaviour
             GameObject newBullet = Instantiate(prefabBullet);
             newBullet.transform.position = muzzleLocation.position;
             newBullet.transform.rotation = muzzleLocation.rotation;
+            newBullet.GetComponent<Rigidbody>().AddForce(newBullet.transform.up*bulletForce);
             fireDelay = fireDelayMax;
         }
         fireDelay -= Time.deltaTime;
