@@ -6,6 +6,8 @@ using UnityEngine.XR;
 
 public class movementStick : MonoBehaviour
 {
+    public Transform xrHeadPosition;
+
     public UnityEngine.XR.InputDevice leftController;
     public UnityEngine.XR.InputDevice rightController;
     public float updateControllerTimer = 0f;
@@ -33,17 +35,29 @@ public class movementStick : MonoBehaviour
     {
         leftController.IsPressed(InputHelpers.Button.Trigger, out leftTrigger);
         rightController.IsPressed(InputHelpers.Button.Trigger, out rightTrigger);
+        bool goUp = false;
+        leftController.IsPressed(InputHelpers.Button.PrimaryAxis2DUp, out goUp);
+        bool goDown = false;
+        leftController.IsPressed(InputHelpers.Button.PrimaryAxis2DDown, out goDown);
         bool goLeft = false;
-        leftController.IsPressed(InputHelpers.Button.PrimaryAxis2DUp, out goLeft);
+        leftController.IsPressed(InputHelpers.Button.PrimaryAxis2DLeft, out goLeft);
         bool goRight = false;
-        leftController.IsPressed(InputHelpers.Button.PrimaryAxis2DDown, out goRight);
-        if ( goLeft)
+        leftController.IsPressed(InputHelpers.Button.PrimaryAxis2DRight, out goRight);
+        if ( goUp)
         {
-            transform.position = Vector3.MoveTowards(transform.position,transform.position+(transform.right*-1f),0.1f);
+            transform.position = Vector3.MoveTowards(transform.position,transform.position+(xrHeadPosition.forward*1f),0.1f);
+        }
+        if (goDown)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, transform.position + (xrHeadPosition.forward*-1f), 0.1f);
+        }
+        if (goLeft)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, transform.position + (xrHeadPosition.right * -1f), 0.1f);
         }
         if (goRight)
         {
-            transform.position = Vector3.MoveTowards(transform.position, transform.position + transform.right, 0.1f);
+            transform.position = Vector3.MoveTowards(transform.position, transform.position + xrHeadPosition.right, 0.1f);
         }
         updateControllerTimer -= Time.deltaTime;
         if (!(updateControllerTimer < 0f)) return;
