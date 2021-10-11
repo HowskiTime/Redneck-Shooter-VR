@@ -12,6 +12,7 @@ public class targetFractureMonkey : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.transform.tag != "Bullet") return;
         WholeGO.SetActive(false);
         FracturedGO.SetActive(true);
         fractured = true;

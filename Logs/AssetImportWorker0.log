@@ -1551,3 +1551,661 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4700.328692 seconds.
+  path: Assets/Models/monkey_fractured.fbx
+  artifactKey: Guid(6f224004ba7c05d4b92952e5c4d625e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/monkey_fractured.fbx using Guid(6f224004ba7c05d4b92952e5c4d625e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d8e00e5210d174f3dfe41cb53dea12') in 1.701854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001475 seconds.
+  path: Assets/Models/monkey_fractured_20.fbx
+  artifactKey: Guid(2f8f9f58c3b907f459d09d3c1ec510e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/monkey_fractured_20.fbx using Guid(2f8f9f58c3b907f459d09d3c1ec510e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f0a24f4842a28461846b7098e9b150') in 0.162330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.169190 seconds.
+  path: Assets/Models/monkey_fractured_200.fbx
+  artifactKey: Guid(6f224004ba7c05d4b92952e5c4d625e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/monkey_fractured_200.fbx using Guid(6f224004ba7c05d4b92952e5c4d625e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da41b9e647ad9fe9cec4781df98050e0') in 0.747041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 462.766607 seconds.
+  path: Assets/Models/monkey_fractured_2000.fbx
+  artifactKey: Guid(37f7205eb43c8b245a60da8a5e02fdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/monkey_fractured_2000.fbx using Guid(37f7205eb43c8b245a60da8a5e02fdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4499bb4441515705d7de9a1f20a8b60b') in 3.068910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 165.447785 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/monkey_fractured_20.prefab
+  artifactKey: Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/monkey_fractured_20.prefab using Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c537e22702aba8184340a8216ca4dc1e') in 0.026765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.673884 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/20_monkey_fractured_20.prefab
+  artifactKey: Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/20_monkey_fractured_20.prefab using Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904e3e8ed50b1cf433dc37835e2b035a') in 0.034664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.236642 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/20_monkey_fractured.prefab
+  artifactKey: Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/20_monkey_fractured.prefab using Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a3460c88f6fc47cd4afbe98b9d4885') in 0.034975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 130.047772 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/monkey_fractured_2000.prefab
+  artifactKey: Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/monkey_fractured_2000.prefab using Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e0be375fb658b194b8bea1e808fe34') in 0.101290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.419903 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab
+  artifactKey: Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab using Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c194a233b204ebaf60778857b44db52') in 0.102524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 104.649703 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/20_monkey_fractured.prefab
+  artifactKey: Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/20_monkey_fractured.prefab using Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9682811905359b15945d5e7996ad755') in 0.090641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.239244 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab
+  artifactKey: Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab using Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710aeb820298442caac9875804df718e') in 0.103698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.349886 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/20_monkey_fractured.prefab
+  artifactKey: Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/20_monkey_fractured.prefab using Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84050cf4f8c56991a68f1c6a5c57404b') in 0.062012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.328107 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab
+  artifactKey: Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab using Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00fe4598b6f88c0c0806959a20e6f22e') in 0.084128 seconds 
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 8.82 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.5 MB.
+System memory in use after: 99.0 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 5607.
+Total: 18.705700 ms (FindLiveObjects: 0.523000 ms CreateObjectMapping: 0.288200 ms MarkObjects: 17.844000 ms  DeleteObjects: 0.049600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 204.666790 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/20_monkey_fractured.prefab
+  artifactKey: Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/20_monkey_fractured.prefab using Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5fb8e36ce0c8fb9e21f44e8134ccc8') in 0.043777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.485198 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/20_monkey_fractured.prefab
+  artifactKey: Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/20_monkey_fractured.prefab using Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25380cc5f10f6dcfced18584aa6c024e') in 0.035100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.212978 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/20_monkey_fractured.prefab
+  artifactKey: Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/20_monkey_fractured.prefab using Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fc7d2bde935b2edee06547a09f6efb') in 0.032688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.411522 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/20_monkey_fractured.prefab
+  artifactKey: Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/20_monkey_fractured.prefab using Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c946806ac5b6584f878c03769a8f61') in 0.037040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.168377 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/20_monkey_fractured.prefab
+  artifactKey: Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/20_monkey_fractured.prefab using Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a4e79a2cc10539f2047202af062e8d') in 0.037355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.614175 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab
+  artifactKey: Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab using Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e232dfb0809cb0c4a3d3e0487bdb3f10') in 0.085137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.140579 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab
+  artifactKey: Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab using Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bdfdf3bb9b3cfa25147763f26bbb898') in 0.084791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.637181 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab
+  artifactKey: Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab using Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d97818cf4f4911dd453990ce4cf205') in 0.098555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.183118 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab
+  artifactKey: Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab using Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2c41597bc73f29e125c36fedef6108') in 0.089502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.271177 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab
+  artifactKey: Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab using Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b2f77a4ef2c8e0d73aa87cc13e5b58') in 0.098358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.603382 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab
+  artifactKey: Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab using Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75c1510e0c3d6b849686c13e048410d') in 0.100587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.817812 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab
+  artifactKey: Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab using Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df270241e1c1ff570ff9d78669383a42') in 0.115991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.883995 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/20_monkey_fractured.prefab
+  artifactKey: Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/20_monkey_fractured.prefab using Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046637162e56cb019a4c28253859fba7') in 0.031711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.418740 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/20_monkey_fractured.prefab
+  artifactKey: Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/20_monkey_fractured.prefab using Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae1feced91101692081ba85f58ea053') in 0.041378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.959950 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/20_monkey_fractured.prefab
+  artifactKey: Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/20_monkey_fractured.prefab using Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01eb9a9fedff347fca343e305cdd66bc') in 0.039750 seconds 
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 10.15 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.9 MB.
+System memory in use after: 99.4 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 5607.
+Total: 5.515500 ms (FindLiveObjects: 0.894800 ms CreateObjectMapping: 0.464000 ms MarkObjects: 4.130400 ms  DeleteObjects: 0.025300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022266 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\sayro\Desktop\unityProjects\Redneck-Shooter-VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\sayro\Desktop\unityProjects\Redneck-Shooter-VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\sayro\Desktop\unityProjects\Redneck-Shooter-VR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\sayro\Desktop\unityProjects\Redneck-Shooter-VR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <6ca5a1eeed924aafabbbb98281c05418>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in 15.238 seconds
+Domain Reload Profiling:
+	ReloadAssembly (15240ms)
+		BeginReloadAssembly (1073ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (124ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (606ms)
+		EndReloadAssembly (13901ms)
+			LoadAssemblies (533ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (5082ms)
+			ReleaseScriptCaches (259ms)
+			RebuildScriptCaches (2833ms)
+			SetupLoadedEditorAssemblies (348ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (249ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 4783 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.3 MB.
+System memory in use after: 191.8 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 5585.
+Total: 3.059200 ms (FindLiveObjects: 0.409400 ms CreateObjectMapping: 0.322400 ms MarkObjects: 2.261700 ms  DeleteObjects: 0.064900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 222.577977 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab
+  artifactKey: Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab using Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e563610432a91031b43f0420ddf76d72') in 0.985481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.256150 seconds.
+  path: Assets/Scripts/targetFractureMonkey.cs
+  artifactKey: Guid(e62b1d2d2449beb41ba8b0fb9a8fb7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/targetFractureMonkey.cs using Guid(e62b1d2d2449beb41ba8b0fb9a8fb7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0ceb93415c6607d6ea7e46358db201') in 0.009436 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009014 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\sayro\Desktop\unityProjects\Redneck-Shooter-VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\sayro\Desktop\unityProjects\Redneck-Shooter-VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\sayro\Desktop\unityProjects\Redneck-Shooter-VR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\sayro\Desktop\unityProjects\Redneck-Shooter-VR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <6ca5a1eeed924aafabbbb98281c05418>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.322 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1322ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1127ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (362ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (361ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (261ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 4783 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.5 MB.
+System memory in use after: 191.9 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 5625.
+Total: 3.430200 ms (FindLiveObjects: 0.402700 ms CreateObjectMapping: 0.275500 ms MarkObjects: 2.699300 ms  DeleteObjects: 0.051900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 34.496904 seconds.
+  path: Assets/Scripts/targetFractureMonkey.cs
+  artifactKey: Guid(e62b1d2d2449beb41ba8b0fb9a8fb7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/targetFractureMonkey.cs using Guid(e62b1d2d2449beb41ba8b0fb9a8fb7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1988c89f91ba61fa5ff0ace662ce40') in 0.007967 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010320 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\sayro\Desktop\unityProjects\Redneck-Shooter-VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\sayro\Desktop\unityProjects\Redneck-Shooter-VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\sayro\Desktop\unityProjects\Redneck-Shooter-VR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\sayro\Desktop\unityProjects\Redneck-Shooter-VR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <6ca5a1eeed924aafabbbb98281c05418>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.512 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1512ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1321ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (515ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (337ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (237ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 4783 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.5 MB.
+System memory in use after: 192.0 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 5629.
+Total: 3.497900 ms (FindLiveObjects: 0.420800 ms CreateObjectMapping: 0.370700 ms MarkObjects: 2.659500 ms  DeleteObjects: 0.046100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 45.700055 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/20_monkey_fractured.prefab
+  artifactKey: Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/20_monkey_fractured.prefab using Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a938b4fc47fa80e43393ec2c526f2f') in 0.185801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab
+  artifactKey: Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab using Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d18673c7df47eb1ed7d3d0af316f17') in 0.089537 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011628 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\sayro\Desktop\unityProjects\Redneck-Shooter-VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\sayro\Desktop\unityProjects\Redneck-Shooter-VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\sayro\Desktop\unityProjects\Redneck-Shooter-VR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\sayro\Desktop\unityProjects\Redneck-Shooter-VR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <6ca5a1eeed924aafabbbb98281c05418>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.479 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2479ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (2202ms)
+			LoadAssemblies (158ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (771ms)
+			ReleaseScriptCaches (22ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (647ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (207ms)
+				ProcessInitializeOnLoadAttributes (416ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 4783 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.6 MB.
+System memory in use after: 192.1 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 5669.
+Total: 6.500900 ms (FindLiveObjects: 1.066300 ms CreateObjectMapping: 0.586400 ms MarkObjects: 4.710600 ms  DeleteObjects: 0.135000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 9.23 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.0 MB.
+System memory in use after: 98.5 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 5669.
+Total: 3.929200 ms (FindLiveObjects: 0.452400 ms CreateObjectMapping: 0.318700 ms MarkObjects: 3.138900 ms  DeleteObjects: 0.018300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 186.025464 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/200_monkey_fractured.prefab
+  artifactKey: Guid(8d2fe5f9f4247f640b19f62c2748867d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/200_monkey_fractured.prefab using Guid(8d2fe5f9f4247f640b19f62c2748867d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef30441291bb81235d70bca9fb495be') in 0.199263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.610374 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/200_monkey_fractured.prefab
+  artifactKey: Guid(8d2fe5f9f4247f640b19f62c2748867d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/200_monkey_fractured.prefab using Guid(8d2fe5f9f4247f640b19f62c2748867d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50921974d87b45fa5bf74fe37e1fd36') in 0.045193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.172446 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/200_monkey_fractured.prefab
+  artifactKey: Guid(8d2fe5f9f4247f640b19f62c2748867d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/200_monkey_fractured.prefab using Guid(8d2fe5f9f4247f640b19f62c2748867d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0298e9ae709311dc6a6b8242430399a3') in 0.044003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.984151 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/200_monkey_fractured.prefab
+  artifactKey: Guid(8d2fe5f9f4247f640b19f62c2748867d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/200_monkey_fractured.prefab using Guid(8d2fe5f9f4247f640b19f62c2748867d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae12a0989cc3e2d34bbe920b35cd3c4d') in 0.053422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.041847 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/20_monkey_fractured.prefab
+  artifactKey: Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/20_monkey_fractured.prefab using Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3148e4cc433da1c52f64ba63b34a98b3') in 0.034114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.414877 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/20_monkey_fractured.prefab
+  artifactKey: Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/20_monkey_fractured.prefab using Guid(aeb27ff96e098c34b8e285820f319e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4916550018f38fc62a026db450047dc') in 0.042467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.150995 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab
+  artifactKey: Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab using Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1351e6cd7ca6f999a7399033f8197157') in 0.093526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.857926 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab
+  artifactKey: Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab using Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17dbb24e33209df2dbb93c505b8d1f98') in 0.087560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.402188 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab
+  artifactKey: Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab using Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c8cc5ba7bb6e5369ddf18bc0ab3d74') in 0.095967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.226936 seconds.
+  path: Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab
+  artifactKey: Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fractureBenchmarkTest/2000_monkey_fractured.prefab using Guid(fcc6e9724959165479361be39633bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd2517353e35667649d1c0f85dbae7b') in 0.087206 seconds 
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 9.39 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.0 MB.
+System memory in use after: 101.4 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 5731.
+Total: 4.465600 ms (FindLiveObjects: 0.557600 ms CreateObjectMapping: 0.321000 ms MarkObjects: 3.543000 ms  DeleteObjects: 0.042900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
