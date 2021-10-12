@@ -1625,6 +1625,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2701181586754004680}
   - component: {fileID: 2701181586754004687}
+  - component: {fileID: 91872867547886235}
   m_Layer: 0
   m_Name: Pixel Gun Mount
   m_TagString: Untagged
@@ -1665,9 +1666,23 @@ MonoBehaviour:
   rightTrigger: 0
   prefabBullet: {fileID: 6506167216266237394, guid: f7f289861e501c644b13177e0057d119, type: 3}
   muzzleLocation: {fileID: 2701181586094980575}
+  beingHeld: 0
   fireDelayMax: 0.2
   fireDelay: 0
   bulletForce: 2000
+--- !u!65 &91872867547886235
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2701181586754004686}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.15, y: 0.3, z: 1.36}
+  m_Center: {x: 0, y: 0.15, z: 0.33}
 --- !u!1 &2701181586822186175
 GameObject:
   m_ObjectHideFlags: 0

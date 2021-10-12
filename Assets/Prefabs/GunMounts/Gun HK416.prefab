@@ -742,6 +742,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4359396944930736642}
   - component: {fileID: 4359396944930736653}
+  - component: {fileID: 3354714689777697149}
   m_Layer: 0
   m_Name: Gun HK416
   m_TagString: Untagged
@@ -782,9 +783,23 @@ MonoBehaviour:
   rightTrigger: 0
   prefabBullet: {fileID: 6506167216266237394, guid: f7f289861e501c644b13177e0057d119, type: 3}
   muzzleLocation: {fileID: 4143074670287722319}
+  beingHeld: 0
   fireDelayMax: 0.2
   fireDelay: 0
   bulletForce: 2000
+--- !u!65 &3354714689777697149
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4359396944930736652}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.15, y: 0.3, z: 0.72}
+  m_Center: {x: 0, y: 0, z: 0.03}
 --- !u!1 &4446420543670270758
 GameObject:
   m_ObjectHideFlags: 0

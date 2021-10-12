@@ -16,6 +16,8 @@ public class GunGeneric : MonoBehaviour
     public GameObject prefabBullet;
     public Transform muzzleLocation;
 
+    public bool beingHeld = false;
+
     public float fireDelayMax = 0.2f;
     public float fireDelay = 0f;
     public float bulletForce = 2000f;
@@ -42,7 +44,7 @@ public class GunGeneric : MonoBehaviour
     {
         leftController.IsPressed(InputHelpers.Button.Trigger, out leftTrigger);
         rightController.IsPressed(InputHelpers.Button.Trigger, out rightTrigger);
-        if (rightTrigger && fireDelay < 0f )
+        if (rightTrigger && fireDelay < 0f && beingHeld )
         {
             GameObject newBullet = Instantiate(prefabBullet);
             newBullet.transform.position = muzzleLocation.position;
