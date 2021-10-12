@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Test/benchmark_fps_Particles.unity
-    guid: eea4a8b003b1b3c41847f8d38802a35d
+    path: Assets/Scenes/Test/benchmark_fps_ShatterCount.unity
+    guid: a65a6a7c74924914fa5e1c034708fa04
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 6e8853f237c574a4ca5b5a920d895ef1, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1acfd03cc1291434698acb9de8d93b0a, type: 2}
