@@ -454,7 +454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da1e343e05c5a874a84634ffd7736f6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPrefab: {fileID: 0}
+  spawnPrefab: {fileID: 4472594817413776547, guid: 231f593aa1ab5784f97db12d460dd583, type: 3}
   spawnDelay: 0
 --- !u!1001 &385044456
 PrefabInstance:
@@ -2109,7 +2109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da1e343e05c5a874a84634ffd7736f6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPrefab: {fileID: 0}
+  spawnPrefab: {fileID: 4472594817413776547, guid: 231f593aa1ab5784f97db12d460dd583, type: 3}
   spawnDelay: 0
 --- !u!1001 &1257399090
 PrefabInstance:
@@ -3306,7 +3306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da1e343e05c5a874a84634ffd7736f6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPrefab: {fileID: 0}
+  spawnPrefab: {fileID: 4472594817413776547, guid: 231f593aa1ab5784f97db12d460dd583, type: 3}
   spawnDelay: 0
 --- !u!1 &1858088029
 GameObject:

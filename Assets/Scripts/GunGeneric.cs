@@ -16,12 +16,18 @@ public class GunGeneric : MonoBehaviour
     public GameObject prefabBullet;
     public Transform muzzleLocation;
     public AudioSource FireSound;
+    public AudioSource EmptySound;
+    public AudioSource ReloadSound;
 
     public bool beingHeld = false;
 
     public float fireDelayMax = 0.2f;
     public float fireDelay = 0f;
     public float bulletForce = 2000f;
+
+    public int Bullets = 10;
+    public int clipsize = 10;
+    public float reloadDelay = 1f;
 
     private void updateController()
     {
@@ -40,20 +46,35 @@ public class GunGeneric : MonoBehaviour
         
     }
 
+    void fireGun()
+    {
+        if ( Bullets <= 0 )
+        {
+            if (EmptySound) EmptySound.Play();
+            fireDelay = reloadDelay;
+            return;
+        }
+        GameObject newBullet = Instantiate(prefabBullet);
+        newBullet.transform.position = muzzleLocation.position;
+        newBullet.transform.rotation = muzzleLocation.rotation;
+        newBullet.GetComponent<Rigidbody>().AddForce(newBullet.transform.up * bulletForce);
+        fireDelay = fireDelayMax;
+        Bullets--;
+        if (FireSound) FireSound.Play();
+    }
+
+    void reloadGun()
+    {
+        if (ReloadSound) ReloadSound.Play();
+        Bullets = clipsize;
+    }
     // Update is called once per frame
     void Update()
     {
         leftController.IsPressed(InputHelpers.Button.Trigger, out leftTrigger);
         rightController.IsPressed(InputHelpers.Button.Trigger, out rightTrigger);
-        if (rightTrigger && fireDelay < 0f && beingHeld )
-        {
-            GameObject newBullet = Instantiate(prefabBullet);
-            newBullet.transform.position = muzzleLocation.position;
-            newBullet.transform.rotation = muzzleLocation.rotation;
-            newBullet.GetComponent<Rigidbody>().AddForce(newBullet.transform.up*bulletForce);
-            fireDelay = fireDelayMax;
-            if (FireSound) FireSound.Play();
-        }
+        if (rightTrigger && fireDelay < 0f && beingHeld ) fireGun();
+        if (transform.forward.y < -.75f && Bullets < clipsize ) reloadGun();
         fireDelay -= Time.deltaTime;
         updateControllerTimer -= Time.deltaTime;
         if (!(updateControllerTimer < 0f)) return;
