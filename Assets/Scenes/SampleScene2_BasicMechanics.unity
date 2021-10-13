@@ -732,7 +732,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cc4b62226c93184d9ab934e8947c9a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xrHeadPosition: {fileID: 0}
+  xrHeadPosition: {fileID: 1687258585}
   updateControllerTimer: 0
   leftTrigger: 0
   rightTrigger: 0
