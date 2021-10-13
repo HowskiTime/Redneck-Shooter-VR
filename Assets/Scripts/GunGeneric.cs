@@ -57,7 +57,8 @@ public class GunGeneric : MonoBehaviour
         GameObject newBullet = Instantiate(prefabBullet);
         newBullet.transform.position = muzzleLocation.position;
         newBullet.transform.rotation = muzzleLocation.rotation;
-        newBullet.GetComponent<Rigidbody>().AddForce(newBullet.transform.up * bulletForce);
+        newBullet.GetComponent<Rigidbody>().AddForce(newBullet.transform.forward * bulletForce);
+        Destroy(newBullet, 5f);
         fireDelay = fireDelayMax;
         Bullets--;
         if (FireSound) FireSound.Play();
@@ -71,9 +72,10 @@ public class GunGeneric : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!beingHeld) return;
         leftController.IsPressed(InputHelpers.Button.Trigger, out leftTrigger);
         rightController.IsPressed(InputHelpers.Button.Trigger, out rightTrigger);
-        if (rightTrigger && fireDelay < 0f && beingHeld ) fireGun();
+        if (rightTrigger && fireDelay < 0f ) fireGun();
         if (transform.forward.y < -.75f && Bullets < clipsize ) reloadGun();
         fireDelay -= Time.deltaTime;
         updateControllerTimer -= Time.deltaTime;

@@ -24,6 +24,11 @@ public class movementStick : MonoBehaviour
         rightController = rightHandDevices[0];
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.transform.tag != "Terrain") Physics.IgnoreCollision(gameObject.GetComponent<CapsuleCollider>(), collision.collider, true);
+    }
+
     // Start is called before the first frame update
     void Start()
     {
