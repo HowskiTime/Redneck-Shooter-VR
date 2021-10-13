@@ -15,6 +15,7 @@ public class GunGeneric : MonoBehaviour
 
     public GameObject prefabBullet;
     public Transform muzzleLocation;
+    public AudioSource FireSound;
 
     public bool beingHeld = false;
 
@@ -51,6 +52,7 @@ public class GunGeneric : MonoBehaviour
             newBullet.transform.rotation = muzzleLocation.rotation;
             newBullet.GetComponent<Rigidbody>().AddForce(newBullet.transform.up*bulletForce);
             fireDelay = fireDelayMax;
+            if (FireSound) FireSound.Play();
         }
         fireDelay -= Time.deltaTime;
         updateControllerTimer -= Time.deltaTime;
