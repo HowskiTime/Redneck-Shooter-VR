@@ -12,11 +12,14 @@ public class CharacterHolsterScript : MonoBehaviour
     public bool leftGrip = false;
     public bool rightGrip = false;
 
-    public bool hasGun = false;
+    public bool hasGunRight = false;
+    public bool hasGunLeft = false;
     public Transform rightHandPos;
+    public Transform leftHandPos;
     public GameObject heldGun;
 
     public List<Holster> RightHandHolsters;
+    public List<Holster> LeftHandHolsters;
 
     private void updateController()
     {
@@ -54,7 +57,7 @@ public class CharacterHolsterScript : MonoBehaviour
     {
         leftController.IsPressed(InputHelpers.Button.GripButton, out leftGrip);
         rightController.IsPressed(InputHelpers.Button.GripButton, out rightGrip);
-        if ( rightGrip && !hasGun )
+        if ( rightGrip && !hasGunRight && !hasGunLeft)
         {
             Holster closest = getClosestHolster(RightHandHolsters, rightHandPos);
             heldGun = Instantiate(closest.GunPrefab);
@@ -62,16 +65,35 @@ public class CharacterHolsterScript : MonoBehaviour
             heldGun.transform.localPosition = Vector3.zero;
             heldGun.transform.localRotation = Quaternion.identity;
             heldGun.GetComponent<GunGeneric>().beingHeld = true;
-            hasGun = true;
+            hasGunRight = true;
         }
-        if ( !rightGrip && hasGun )
+        if ( !rightGrip && hasGunRight)
         {
             heldGun.transform.SetParent(null);
             heldGun.AddComponent<Rigidbody>();
             //heldGun.AddComponent<BoxCollider>();
             heldGun.GetComponent<GunGeneric>().beingHeld = false;
             Destroy(heldGun, 5f);
-            hasGun = false;
+            hasGunRight = false;
+        }
+        if (leftGrip && !hasGunRight && !hasGunLeft)
+        {
+            Holster closest = getClosestHolster(LeftHandHolsters, leftHandPos);
+            heldGun = Instantiate(closest.GunPrefab);
+            heldGun.transform.SetParent(leftHandPos);
+            heldGun.transform.localPosition = Vector3.zero;
+            heldGun.transform.localRotation = Quaternion.identity;
+            heldGun.GetComponent<BowGeneric>().beingHeld = true;
+            hasGunLeft = true;
+        }
+        if (!leftGrip && hasGunLeft)
+        {
+            heldGun.transform.SetParent(null);
+            heldGun.AddComponent<Rigidbody>();
+            //heldGun.AddComponent<BoxCollider>();
+            heldGun.GetComponent<BowGeneric>().beingHeld = false;
+            Destroy(heldGun, 5f);
+            hasGunLeft = false;
         }
         updateControllerTimer -= Time.deltaTime;
         if (!(updateControllerTimer < 0f)) return;
