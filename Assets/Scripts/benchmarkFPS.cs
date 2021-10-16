@@ -33,6 +33,9 @@ public class benchmarkFPS : MonoBehaviour
         secondCount = 1f;
         currentFps = framesThisSecond;
         framesThisSecond = 0;
-        fpsHud.text = currentFps.ToString() + "/72 FPS\n+x"+rightHandPos.localPosition.x.ToString()+"\ny"+rightHandPos.localPosition.y.ToString()+"\nz"+rightHandPos.localPosition.z.ToString();
+        if (rightHandPos)
+            fpsHud.text = currentFps.ToString() + "/72 FPS\n+x" + rightHandPos.localPosition.x.ToString() + "\ny" + rightHandPos.localPosition.y.ToString() + "\nz" + rightHandPos.localPosition.z.ToString();
+        else
+            fpsHud.text = currentFps.ToString() + "/72 FPS";
     }
 }
