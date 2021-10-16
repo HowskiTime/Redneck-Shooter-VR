@@ -8,6 +8,8 @@ public class benchmarkFPS : MonoBehaviour
     public TextMeshPro fpsHud;
     public int worstFps = 72;
 
+    public Transform rightHandPos;
+
     public int currentFps;
     private float secondCount = 1f;
     private int framesThisSecond = 0;
@@ -31,6 +33,6 @@ public class benchmarkFPS : MonoBehaviour
         secondCount = 1f;
         currentFps = framesThisSecond;
         framesThisSecond = 0;
-        fpsHud.text = currentFps.ToString() + "/72 FPS";
+        fpsHud.text = currentFps.ToString() + "/72 FPS\n+x"+rightHandPos.localPosition.x.ToString()+"\ny"+rightHandPos.localPosition.y.ToString()+"\nz"+rightHandPos.localPosition.z.ToString();
     }
 }

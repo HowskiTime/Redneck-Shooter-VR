@@ -559,13 +559,15 @@ MonoBehaviour:
   updateControllerTimer: 0
   leftGrip: 0
   rightGrip: 0
-  hasGun: 0
-  prefabGun: {fileID: 2701181586754004686, guid: 4f8462c8c734d664ba9e727cb37475c4, type: 3}
+  hasGunRight: 0
+  hasGunLeft: 0
   rightHandPos: {fileID: 969796691}
+  leftHandPos: {fileID: 0}
   heldGun: {fileID: 0}
   RightHandHolsters:
   - {fileID: 255988173}
   - {fileID: 1649590805}
+  LeftHandHolsters: []
 --- !u!1 &563015992
 GameObject:
   m_ObjectHideFlags: 0
@@ -2485,6 +2487,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fpsHud: {fileID: 1850486619}
   worstFps: 72
+  rightHandPos: {fileID: 969796691}
   currentFps: 0
 --- !u!1 &1860237926
 GameObject:
