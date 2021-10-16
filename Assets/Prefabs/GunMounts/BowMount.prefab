@@ -50,6 +50,7 @@ MonoBehaviour:
   stringBottom: {fileID: 7793375593399593072}
   stringGrab: {fileID: 7793375594713909646}
   myLine: {fileID: 0}
+  beingHeld: 0
 --- !u!120 &7793375593033844870
 LineRenderer:
   m_ObjectHideFlags: 0

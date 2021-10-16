@@ -697,6 +697,7 @@ MonoBehaviour:
   - {fileID: 1650488833}
   LeftHandHolsters:
   - {fileID: 1291610223}
+  QuiverPos: {fileID: 205337012}
 --- !u!136 &542339323
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2229,7 +2230,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1291610222}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.25, y: 0.222, z: 0}
+  m_LocalPosition: {x: -0.2, y: 0, z: 0.07}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 153920039}

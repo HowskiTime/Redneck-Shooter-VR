@@ -17,9 +17,12 @@ public class CharacterHolsterScript : MonoBehaviour
     public Transform rightHandPos;
     public Transform leftHandPos;
     public GameObject heldGun;
+    public Transform stringGrab;
+    public bool stringHeld = false;
 
     public List<Holster> RightHandHolsters;
     public List<Holster> LeftHandHolsters;
+    public Transform QuiverPos;
 
     private void updateController()
     {
@@ -84,6 +87,7 @@ public class CharacterHolsterScript : MonoBehaviour
             heldGun.transform.localPosition = Vector3.zero;
             heldGun.transform.localRotation = Quaternion.identity;
             heldGun.GetComponent<BowGeneric>().beingHeld = true;
+            stringGrab = heldGun.GetComponent<BowGeneric>().stringGrab;
             hasGunLeft = true;
         }
         if (!leftGrip && hasGunLeft)
@@ -94,6 +98,21 @@ public class CharacterHolsterScript : MonoBehaviour
             heldGun.GetComponent<BowGeneric>().beingHeld = false;
             Destroy(heldGun, 5f);
             hasGunLeft = false;
+        }
+        if ( hasGunLeft )
+        {
+            if (Vector3.Distance(heldGun.transform.position,stringGrab.position) < 0.2f && !stringHeld && rightGrip )
+            {
+                stringHeld = true;
+            }
+            if ( stringHeld )
+            {
+                stringGrab.position = rightHandPos.position;
+                if ( !rightGrip )
+                {
+                    stringHeld = false;
+                }
+            }
         }
         updateControllerTimer -= Time.deltaTime;
         if (!(updateControllerTimer < 0f)) return;
