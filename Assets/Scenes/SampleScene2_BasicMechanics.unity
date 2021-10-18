@@ -686,11 +686,16 @@ MonoBehaviour:
   updateControllerTimer: 0
   leftGrip: 0
   rightGrip: 0
+  leftTrigger: 0
+  rightTrigger: 0
   hasGunRight: 0
   hasGunLeft: 0
   rightHandPos: {fileID: 969796691}
   leftHandPos: {fileID: 908047855}
   heldGun: {fileID: 0}
+  heldArrow: {fileID: 0}
+  stringGrab: {fileID: 0}
+  stringHeld: 0
   RightHandHolsters:
   - {fileID: 205337013}
   - {fileID: 1949410416}
@@ -698,6 +703,7 @@ MonoBehaviour:
   LeftHandHolsters:
   - {fileID: 1291610223}
   QuiverPos: {fileID: 205337012}
+  arrowPrefab: {fileID: 4861069901148468811, guid: 352fedf314a813a46a8e93b51b78274d, type: 3}
 --- !u!136 &542339323
 CapsuleCollider:
   m_ObjectHideFlags: 0

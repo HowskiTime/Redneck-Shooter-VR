@@ -11,18 +11,23 @@ public class CharacterHolsterScript : MonoBehaviour
     public float updateControllerTimer = 0f;
     public bool leftGrip = false;
     public bool rightGrip = false;
+    public bool leftTrigger = false;
+    public bool rightTrigger = false;
 
     public bool hasGunRight = false;
     public bool hasGunLeft = false;
     public Transform rightHandPos;
     public Transform leftHandPos;
     public GameObject heldGun;
+    public GameObject heldArrow;
     public Transform stringGrab;
+    public Transform arrowRest;
     public bool stringHeld = false;
 
     public List<Holster> RightHandHolsters;
     public List<Holster> LeftHandHolsters;
     public Transform QuiverPos;
+    public GameObject arrowPrefab;
 
     private void updateController()
     {
@@ -60,6 +65,8 @@ public class CharacterHolsterScript : MonoBehaviour
     {
         leftController.IsPressed(InputHelpers.Button.GripButton, out leftGrip);
         rightController.IsPressed(InputHelpers.Button.GripButton, out rightGrip);
+        leftController.IsPressed(InputHelpers.Button.Trigger, out leftTrigger);
+        rightController.IsPressed(InputHelpers.Button.Trigger, out rightTrigger);
         if ( rightGrip && !hasGunRight && !hasGunLeft)
         {
             Holster closest = getClosestHolster(RightHandHolsters, rightHandPos);
@@ -101,21 +108,39 @@ public class CharacterHolsterScript : MonoBehaviour
             hasGunLeft = false;
         }
         if ( hasGunLeft )
-        {
-            if (Vector3.Distance(heldGun.transform.position,stringGrab.position) < 0.2f && !stringHeld && rightGrip )
-            {
+        { // holding bow
+            if (Vector3.Distance(heldGun.transform.position,stringGrab.position) < 0.2f && !stringHeld && rightTrigger )
+            { // Grip string
                 stringHeld = true;
                 heldGun.GetComponent<BowGeneric>().stringHeld = true;
             }
+            if (Vector3.Distance(rightHandPos.transform.position, QuiverPos.position) < 0.2f && !heldArrow && rightGrip)
+            { // grab arrow
+                heldArrow = Instantiate(arrowPrefab);
+                heldArrow.transform.SetParent(rightHandPos);
+                heldArrow.transform.localPosition = Vector3.zero;
+                heldArrow.transform.localRotation = Quaternion.identity;
+            }
+            if ( heldArrow && !rightGrip)
+            { // holding arrow, release
+                heldArrow.transform.SetParent(null);
+                heldArrow.GetComponent<Rigidbody>().isKinematic = true;
+                Destroy(heldArrow, 5f);
+            }
             if ( stringHeld )
-            {
+            { // holding string
                 stringGrab.position = rightHandPos.position;
-                if ( !rightGrip )
+                if ( !rightTrigger )
                 {
                     stringHeld = false;
                     heldGun.GetComponent<BowGeneric>().stringHeld = false;
+                    if ( heldArrow )
+                    { // launch arrow
+
+                    }
                 }
             }
+
         }
         updateControllerTimer -= Time.deltaTime;
         if (!(updateControllerTimer < 0f)) return;

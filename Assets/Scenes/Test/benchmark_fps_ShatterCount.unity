@@ -564,10 +564,13 @@ MonoBehaviour:
   rightHandPos: {fileID: 969796691}
   leftHandPos: {fileID: 0}
   heldGun: {fileID: 0}
+  stringGrab: {fileID: 0}
+  stringHeld: 0
   RightHandHolsters:
   - {fileID: 255988173}
   - {fileID: 1649590805}
   LeftHandHolsters: []
+  QuiverPos: {fileID: 0}
 --- !u!1 &563015992
 GameObject:
   m_ObjectHideFlags: 0
