@@ -96,6 +96,7 @@ public class CharacterHolsterScript : MonoBehaviour
             heldGun.AddComponent<Rigidbody>();
             //heldGun.AddComponent<BoxCollider>();
             heldGun.GetComponent<BowGeneric>().beingHeld = false;
+            heldGun.GetComponent<BowGeneric>().stringHeld = false;
             Destroy(heldGun, 5f);
             hasGunLeft = false;
         }
@@ -104,6 +105,7 @@ public class CharacterHolsterScript : MonoBehaviour
             if (Vector3.Distance(heldGun.transform.position,stringGrab.position) < 0.2f && !stringHeld && rightGrip )
             {
                 stringHeld = true;
+                heldGun.GetComponent<BowGeneric>().stringHeld = true;
             }
             if ( stringHeld )
             {
@@ -111,6 +113,7 @@ public class CharacterHolsterScript : MonoBehaviour
                 if ( !rightGrip )
                 {
                     stringHeld = false;
+                    heldGun.GetComponent<BowGeneric>().stringHeld = false;
                 }
             }
         }
