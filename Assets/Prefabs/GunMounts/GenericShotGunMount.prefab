@@ -1614,7 +1614,7 @@ GameObject:
   - component: {fileID: 9133635970776511660}
   - component: {fileID: 9133635970776511661}
   - component: {fileID: 5302799829529485547}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GenericShotGunMount
   m_TagString: Untagged
   m_Icon: {fileID: 0}

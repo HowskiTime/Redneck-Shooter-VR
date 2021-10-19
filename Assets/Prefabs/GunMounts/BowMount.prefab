@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 7793375593033844864}
   - component: {fileID: 7793375593033844871}
   - component: {fileID: 7793375593033844870}
-  m_Layer: 0
+  - component: {fileID: 4811980253001719865}
+  m_Layer: 9
   m_Name: BowMount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51,6 +52,7 @@ MonoBehaviour:
   stringGrab: {fileID: 7793375594713909646}
   myLine: {fileID: 0}
   beingHeld: 0
+  stringHeld: 0
 --- !u!120 &7793375593033844870
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -151,6 +153,19 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
+--- !u!65 &4811980253001719865
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7793375593033844865}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05, y: 1, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7793375593123804143
 GameObject:
   m_ObjectHideFlags: 0

@@ -997,7 +997,7 @@ GameObject:
   - component: {fileID: 4359396944930736642}
   - component: {fileID: 4359396944930736653}
   - component: {fileID: 3354714689777697149}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Gun HK416
   m_TagString: Untagged
   m_Icon: {fileID: 0}

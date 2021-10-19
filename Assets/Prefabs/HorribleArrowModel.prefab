@@ -382,7 +382,7 @@ GameObject:
   - component: {fileID: 4861069901148468821}
   - component: {fileID: 4861069901148468822}
   - component: {fileID: 5991236821168521876}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorribleArrowModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}

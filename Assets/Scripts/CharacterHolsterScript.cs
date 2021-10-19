@@ -140,6 +140,12 @@ public class CharacterHolsterScript : MonoBehaviour
                         heldArrow.GetComponent<Rigidbody>().isKinematic = false;
                         heldArrow.GetComponent<Rigidbody>().AddForce(heldArrow.transform.forward*1500f);
                     }
+                } else
+                {
+                    if (heldArrow)
+                    { // point arrow the right way
+                        heldArrow.transform.LookAt(heldGun.transform.position);
+                    }
                 }
             }
 
