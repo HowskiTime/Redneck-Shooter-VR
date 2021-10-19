@@ -25,9 +25,9 @@ public class BowGeneric : MonoBehaviour
         myLine.SetPosition(0, stringTop.position);
         myLine.SetPosition(1, stringGrab.position);
         myLine.SetPosition(2, stringBottom.position);
-        if (stringHeld) return;
+        if (stringHeld || !beingHeld) return;
         //transform.position.x = josh.position.x + (mark.position.x - josh.position.x) / 2;
-        stringGrab.position = Vector3.MoveTowards(stringGrab.position,(stringBottom.position-stringTop.position)*.5f,Time.deltaTime);
+        stringGrab.position = Vector3.MoveTowards(stringGrab.position,Vector3.MoveTowards(stringTop.position,stringBottom.position,0.5f),Time.deltaTime*2f);
     }
 }
 

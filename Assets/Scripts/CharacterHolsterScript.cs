@@ -124,7 +124,7 @@ public class CharacterHolsterScript : MonoBehaviour
             if ( heldArrow && !rightGrip)
             { // holding arrow, release
                 heldArrow.transform.SetParent(null);
-                heldArrow.GetComponent<Rigidbody>().isKinematic = true;
+                heldArrow.GetComponent<Rigidbody>().isKinematic = false;
                 Destroy(heldArrow, 5f);
             }
             if ( stringHeld )
@@ -136,7 +136,9 @@ public class CharacterHolsterScript : MonoBehaviour
                     heldGun.GetComponent<BowGeneric>().stringHeld = false;
                     if ( heldArrow )
                     { // launch arrow
-
+                        heldArrow.transform.SetParent(null);
+                        heldArrow.GetComponent<Rigidbody>().isKinematic = false;
+                        heldArrow.GetComponent<Rigidbody>().AddForce(heldArrow.transform.forward*1500f);
                     }
                 }
             }
