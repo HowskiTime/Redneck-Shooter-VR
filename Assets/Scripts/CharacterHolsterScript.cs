@@ -114,7 +114,7 @@ public class CharacterHolsterScript : MonoBehaviour
                 stringHeld = true;
                 heldGun.GetComponent<BowGeneric>().stringHeld = true;
             }
-            if (Vector3.Distance(rightHandPos.transform.position, QuiverPos.position) < 0.2f && !heldArrow && rightGrip)
+            if (Vector3.Distance(rightHandPos.transform.position, QuiverPos.position) < 0.4f && !heldArrow && rightGrip)
             { // grab arrow
                 heldArrow = Instantiate(arrowPrefab);
                 heldArrow.transform.SetParent(rightHandPos);
@@ -139,9 +139,9 @@ public class CharacterHolsterScript : MonoBehaviour
                         heldArrow.transform.SetParent(null);
                         heldArrow.GetComponent<Rigidbody>().isKinematic = false;
                         heldArrow.GetComponent<Rigidbody>().AddForce(heldArrow.transform.forward*1500f);
+                        heldArrow.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
                     }
-                } else
-                {
+                } else { // holding trigger
                     if (heldArrow)
                     { // point arrow the right way
                         heldArrow.transform.LookAt(heldGun.transform.position);
