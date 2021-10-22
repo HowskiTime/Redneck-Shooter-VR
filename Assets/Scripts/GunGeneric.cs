@@ -29,6 +29,8 @@ public class GunGeneric : MonoBehaviour
     public int clipsize = 10;
     public float reloadDelay = 1f;
 
+    private GameController mainGC;
+
     private void updateController()
     {
         if (Application.isEditor) return;
@@ -43,7 +45,7 @@ public class GunGeneric : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        mainGC = GameObject.Find("_GameController").GetComponent<GameController>();
     }
 
     void fireGun()
@@ -58,6 +60,7 @@ public class GunGeneric : MonoBehaviour
         newBullet.transform.position = muzzleLocation.position;
         newBullet.transform.rotation = muzzleLocation.rotation;
         newBullet.GetComponent<Rigidbody>().AddForce(newBullet.transform.forward * bulletForce);
+        newBullet.GetComponent<BulletGeneric>().mainGC = mainGC;
         Destroy(newBullet, 5f);
         fireDelay = fireDelayMax;
         Bullets--;

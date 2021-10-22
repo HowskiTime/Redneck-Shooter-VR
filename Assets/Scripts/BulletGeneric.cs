@@ -4,7 +4,15 @@ using UnityEngine;
 
 public class BulletGeneric : MonoBehaviour
 {
-    public float timeToLive = 5f;
+    public GameController mainGC;
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        ContactPoint contact = collision.contacts[0];
+        GameObject decal = Instantiate(mainGC.gcResources.BulletHoles[0], contact.point, Quaternion.LookRotation(contact.normal));
+        decal.GetComponent<AudioSource>().Play();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,8 +22,6 @@ public class BulletGeneric : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timeToLive -= Time.deltaTime;
-        if (timeToLive > 0f) return;
-        Destroy(gameObject);
+
     }
 }
