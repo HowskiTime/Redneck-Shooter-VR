@@ -364,6 +364,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 439998672}
+  - component: {fileID: 439998673}
   m_Layer: 0
   m_Name: HUD
   m_TagString: Untagged
@@ -386,6 +387,23 @@ Transform:
   m_Father: {fileID: 1687258585}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &439998673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439998671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a2d408d0ca7cd34292f00913c9eb7d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fpsHud: {fileID: 1850486619}
+  worstFps: 72
+  rightHandPos: {fileID: 0}
+  currentFps: 0
+  updateControllerTimer: 0
 --- !u!1 &542339319
 GameObject:
   m_ObjectHideFlags: 0
@@ -396,10 +414,11 @@ GameObject:
   m_Component:
   - component: {fileID: 542339321}
   - component: {fileID: 542339320}
-  - component: {fileID: 542339322}
   - component: {fileID: 542339324}
   - component: {fileID: 542339323}
+  - component: {fileID: 542339322}
   - component: {fileID: 542339325}
+  - component: {fileID: 542339326}
   m_Layer: 0
   m_Name: XR Rig
   m_TagString: Untagged
@@ -434,7 +453,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 542339319}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.99, y: 0, z: 0.28}
+  m_LocalPosition: {x: 1.99, y: 0.84, z: 0.28}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 744279136}
@@ -448,7 +467,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 542339319}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5cc4b62226c93184d9ab934e8947c9a1, type: 3}
   m_Name: 
@@ -494,12 +513,29 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 542339319}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af43c6a4511bc524cb123375e2a7fa36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   xrHeadPosition: {fileID: 1687258585}
+--- !u!114 &542339326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542339319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b4e5f06157d3964c80059a570ebf5fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xrHeadPosition: {fileID: 1687258585}
+  myCollider: {fileID: 0}
+  updateControllerTimer: 0
+  leftTrigger: 0
+  rightTrigger: 0
 --- !u!1 &653260035
 GameObject:
   m_ObjectHideFlags: 0
@@ -1536,7 +1572,7 @@ GameObject:
   - component: {fileID: 1378372906}
   m_Layer: 0
   m_Name: Terrain
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -2013,7 +2049,6 @@ GameObject:
   - component: {fileID: 1850486618}
   - component: {fileID: 1850486620}
   - component: {fileID: 1850486619}
-  - component: {fileID: 1850486621}
   m_Layer: 0
   m_Name: Text (TMP) (1)
   m_TagString: Untagged
@@ -2174,21 +2209,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1850486621
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1850486617}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a2d408d0ca7cd34292f00913c9eb7d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fpsHud: {fileID: 1850486619}
-  worstFps: 72
-  currentFps: 0
 --- !u!1 &1872513884
 GameObject:
   m_ObjectHideFlags: 0
